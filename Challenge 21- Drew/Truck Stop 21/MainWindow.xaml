@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="625" Width="1000">
     <Grid>
-        <Rectangle Fill="#FFE2E1CB" Margin="8,181,0,13.2" Stroke="Black" HorizontalAlignment="Left" Width="248"/>
-        <Rectangle Fill="#FFC3145C" Margin="286,181,0,13.2" Stroke="Black" HorizontalAlignment="Left" Width="341"/>
-        <Rectangle Margin="655,219,0,13.2" Stroke="Black" HorizontalAlignment="Left" Width="327" Fill="#FFEA2E1B"/>
+        <Rectangle Fill="#FF444CEE" Margin="8,181,0,13.2" Stroke="Black" HorizontalAlignment="Left" Width="248"/>
+        <Rectangle Fill="#FF8BF111" Margin="286,181,0,13.2" Stroke="Black" HorizontalAlignment="Left" Width="341"/>
+        <Rectangle Margin="655,219,0,13.2" Stroke="Black" HorizontalAlignment="Left" Width="327" Fill="#FF1BB2EA"/>
         <Label Content="Driver Name" HorizontalAlignment="Left" Margin="21,238,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Content="Social Security" HorizontalAlignment="Left" Margin="21,302,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Content="Phone Number" HorizontalAlignment="Left" Margin="21,364,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
@@ -33,7 +33,7 @@
         <Label x:Name="tVacayLbl" Content="Vacation Earned" HorizontalAlignment="Left" Margin="675,526,0,0" VerticalAlignment="Top" Width="274" Height="32" FontSize="20"/>
         <TextBox x:Name="startMilesTxtBox" HorizontalAlignment="Left" Height="23" Margin="120,481,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="endMilesTxtBox" HorizontalAlignment="Left" Height="23" Margin="120,520,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="printBtn" Content="Print Driver Ticket" HorizontalAlignment="Left" Margin="655,181,0,0" VerticalAlignment="Top" Width="327" Height="33" Click="Button_Click" FontWeight="Bold" FontSize="20" Background="#FF71EEDD"/>
+        <Button x:Name="printBtn" Content="Print Driver Ticket" HorizontalAlignment="Left" Margin="655,181,0,0" VerticalAlignment="Top" Width="327" Height="33" Click="Button_Click" FontWeight="Bold" FontSize="20" Background="#FF70BBB1"/>
         <Image HorizontalAlignment="Left" Height="130" Margin="22,33,0,0" VerticalAlignment="Top" Width="960" Source="truck-load.jpg"/>
 
     </Grid>
